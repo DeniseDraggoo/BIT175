@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+Images
+--------------------------------------------------------------*/
+
+
+.memberPhotos img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    padding:45px;
+}
+
+.currentReading img {
+    width: 300px;
+}
+
+.pastBooks img {
+    width: 200px;
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+.icon img {
+    width: 1.5em;
+}
+
+
+
+.footerSVG:hover { 
+    -webkit-transform: scale(3);
+    transition: 1s ease-in-out;
+}
+
+.footerSVG {    
+    -webkit-transform: scale(1);
+    transition: 3s ease-out;  
+}
+
+@media screen and (min-width: 700px) {
+    .memberPhotos img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 300px;
+        padding:60px;
+    }
+        .currentReading img {
+        width: 200px;
+    }   
+
+}
+
+@media screen and (min-width: 1200px) {
+    .memberPhotos img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 500px;
+    padding:80px;
+    }
+    .currentReading img {
+    width: 200px;
+    } 
+}
