@@ -7,13 +7,14 @@ Images
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    margin: auto;
     width: 200px;
     padding:45px;
 }
 
+
 .currentReading img {
-    width: 300px;
+    width: 600px;
 }
 
 .pastBooks img {
