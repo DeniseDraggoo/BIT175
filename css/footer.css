@@ -1,11 +1,22 @@
 
-/*.footer {
-  position: sticky;
+.footer {
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 2em;
+  height: 40px;
   background-color: blueviolet;
   color: white;
-  text-align: center;
-}*/
+  margin: auto;
+}
+
+.footer p {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.footerSVG {
+    width: 20px;
+    height: 20px;
+}

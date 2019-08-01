@@ -5,11 +5,11 @@ Images
 
 .memberPhotos img {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
     width: 200px;
-    padding:45px;
+    padding: 15px;
 }
 
 
@@ -21,9 +21,10 @@ Images
     width: 200px;
 }
 
-.rotate90 {
+/*.rotate90 {
     transform: rotate(90deg);
 }
+*/
 
 .icon img {
     width: 1.5em;
@@ -48,7 +49,7 @@ Images
         flex-wrap: wrap;
         align-content: center;
         width: 300px;
-        padding:60px;
+        padding:15px;
     }
         .currentReading img {
         width: 200px;
@@ -58,14 +59,23 @@ Images
 
 @media screen and (min-width: 1200px) {
     .memberPhotos img {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    width: 500px;
-    padding:80px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        width: 500px;
+        padding: 30px;
     }
     .currentReading img {
-    width: 200px;
+        width: 350px;
+        float: left;
+        margin: 0px 0px 15px 300px;
     } 
+    .pastBooks img {
+                width: 200px;
+        float: left;
+        margin: 0px 0px 15px 75px;
+    }
 }
+
+

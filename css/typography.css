@@ -143,3 +143,18 @@ h4 {
 	font-size: 1.2em;
 	line-height: 1;
 }
+
+
+.currentReading p {
+    padding: 0px 75px 20px 675px;
+    font-family: sans-serif;
+    font-size: .8em;
+    text-align: left;
+}
+
+.pastBooks p {
+    padding: 0px 75px 20px 300px;
+    font-family: sans-serif;
+    font-size: .8em;
+    text-align: left;
+}
