@@ -1,0 +1,87 @@
+/*--------------------------------------------------------------
+Images
+--------------------------------------------------------------*/
+
+
+.memberPhotos img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 200px;
+    padding: 15px;
+}
+
+.currentlyReading img {
+    width: 300px;
+}
+
+.currentReading img {
+    width: 600px;
+}
+
+.pastBooks img {
+    width: 200px;
+}
+
+.icon img {
+    width: 1.5em;
+}
+
+
+
+.footerSVG:hover { 
+    -webkit-transform: scale(3);
+    transition: 1s ease-in-out;
+}
+
+.footerSVG {    
+    -webkit-transform: scale(1);
+    transition: 3s ease-out;  
+}
+
+@media screen and (min-width: 700px) { 
+    .memberPhotos img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 300px;
+        padding:15px;
+    }
+        
+    .currentlyReading img {
+        width: 450px;
+    }
+        .currentReading img {
+        width: 100px;
+        align-content: center;
+    }   
+
+}
+
+@media screen and (min-width: 1200px) {
+    .currentlyReading img, 
+    .memberPhotos img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        width: 500px;
+        padding: 30px;
+    }
+    .currentReading img {
+        width: 350px;
+        float: left;
+        margin: 0px 0px 15px 300px;
+    } 
+    .pastBooks img {
+        width: 200px;
+        float: left;
+        margin: 0px 0px 15px 75px;
+    }
+}
+
+.gallery .img {
+    align-content: center;
+}

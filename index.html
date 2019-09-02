@@ -21,11 +21,13 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/images.css">
+    <link rel="stylesheet" href="css/slideshow.css">
     <link rel="stylesheet" href="css/accessibility.css">
     <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/masthead.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cssAnimation.css">
     
 </head>
 <body>
@@ -45,25 +47,48 @@
     
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+  <div class="memberPhotos">
     <h3>Who We Are</h3>
-      <div class="memberPhotos">
-        <img srcset="images/Lindley.JPG" alt="text" class="rotate90">
-        <img srcset="images/Molly.JPG" alt="text" class="rotate90">
-        <img srcset="images/Sarah.JPG" alt="text" class="rotate90">
-        <img srcset="images/Michelle.JPG" alt="text" class="rotate90"> 
-      </div>
+            <div class="photos">
+            <div id="Lindley">
+            <img srcset="images/Lindley.JPG" alt="Lindley's Photo" class="rotate90" style="width:25%">
+            <div class="portraitText">Lindley</div>
+            </div></div>
+      
+            <div class="photos">
+            <div id="Molly">
+            <img srcset="images/Molly.JPG" alt="text" class="rotate90" style="width:25%">
+            <div class="portraitText">Molly</div>
+            </div></div>
+      
+            <div class="photos">
+            <div id="Sarah">
+            <img srcset="images/Sarah.JPG" alt="text" class="rotate90" style="width:25%">
+            <div class="portraitText">Sarah</div>
+            </div></div>
+      
+            <div class="photos">
+            <div id="Michelle">
+            <img srcset="images/Michelle.JPG" alt="text" class="rotate90" style="width:25%">
+            <div class="portraitText">Michelle</div>
+            </div></div>
+    </div> 
       
         <h3>What We Are <br> Currently Reading</h3>
-            <div class="currentReading">
-            <img src="images/Fatso.jpg" alt="text">
-            </div>
-        <p>We are currently reading Fat!So?</p>
-        <p></p>
-  </div>
+            <div class="currentlyReading">
+            <img src="images/Fatso.jpg" alt="text"></div>
+            <p class="currentlyText">We are currently reading Fat!So?</p>
+            <p></p>
+    
+<!-- ANIMATION COVERAGE FOR OLDER BROWSERS
+---------------------------------------------------- -->
+    <script src="http://www.kirupa.com/js/prefixfree.min.js"></script>
+<!------------------------------------------------------ -->
+    
+    
     
 <div class="footer">
-    <p><img class="footerSVG"src="fonts/070-envelop.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:dr.piggles@yahoo.com?Subject=Book%20club" target="_top">Contact Us</p>
+    <img class="footerSVG"src="fonts/070-envelop.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:dr.piggles@yahoo.com?Subject=Book%20club" target="_top">Contact Us</a>
 </div>
 
 </body>

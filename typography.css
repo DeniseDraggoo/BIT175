@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+
+
+p {
+	font-family: serif;
+    font-size: 1em;
+	margin-bottom: 1.5em;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+
+.currentReading p {
+    padding: 0px 75px 20px 675px;
+    font-family: sans-serif;
+    font-size: .8em;
+    text-align: left;
+}
+
+.pastBooks p {
+    padding: 0px 75px 20px 300px;
+    font-family: sans-serif;
+    font-size: .8em;
+    text-align: left;
+}
+
+.portraitText {
+    text-align: center;
+}
