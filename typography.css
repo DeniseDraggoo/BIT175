@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
+h2 {
+    color: darkred;
+}
+
 
 .currentReading p {
     padding: 0px 75px 20px 675px;
@@ -32,4 +36,10 @@ h1, h2, h3, h4, h5 {
 
 .portraitText {
     text-align: center;
+}
+
+.contactInfo {
+    padding: 100px 75px 20px 300px;
+    text-align: center;
+    font-size: 1.5em;
 }

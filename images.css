@@ -10,10 +10,11 @@ Images
     margin: auto;
     width: 200px;
     padding: 15px;
+    border-radius: 120px;
 }
 
 .currentlyReading img {
-    width: 300px;
+    width: 100px;
 }
 
 .currentReading img {
@@ -28,7 +29,9 @@ Images
     width: 1.5em;
 }
 
-
+.footer {
+    text-align: center;
+}
 
 .footerSVG:hover { 
     -webkit-transform: scale(3);
