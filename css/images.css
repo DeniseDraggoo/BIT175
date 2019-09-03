@@ -10,8 +10,12 @@ Images
     margin: auto;
     width: 200px;
     padding: 15px;
+    border-radius: 120px;
 }
 
+.currentlyReading img {
+    width: 100px;
+}
 
 .currentReading img {
     width: 600px;
@@ -21,16 +25,13 @@ Images
     width: 200px;
 }
 
-/*.rotate90 {
-    transform: rotate(90deg);
-}
-*/
-
 .icon img {
     width: 1.5em;
 }
 
-
+.footer {
+    text-align: center;
+}
 
 .footerSVG:hover { 
     -webkit-transform: scale(3);
@@ -42,7 +43,7 @@ Images
     transition: 3s ease-out;  
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) { 
     .memberPhotos img {
         display: flex;
         flex-direction: row;
@@ -51,13 +52,19 @@ Images
         width: 300px;
         padding:15px;
     }
+        
+    .currentlyReading img {
+        width: 450px;
+    }
         .currentReading img {
-        width: 200px;
+        width: 100px;
+        align-content: center;
     }   
 
 }
 
 @media screen and (min-width: 1200px) {
+    .currentlyReading img, 
     .memberPhotos img {
         display: flex;
         flex-direction: row;
@@ -72,10 +79,12 @@ Images
         margin: 0px 0px 15px 300px;
     } 
     .pastBooks img {
-                width: 200px;
+        width: 200px;
         float: left;
         margin: 0px 0px 15px 75px;
     }
 }
 
-
+.gallery .img {
+    align-content: center;
+}
